@@ -4,17 +4,31 @@
     box-sizing: border-box;
 }
 
+header,
+section h2{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
 header{
     padding: 16px 0;
     background-color: #182C61;
     color: #ecf0f1;
 }
 
+header h1,
+section h2{
+    font-weight: normal;
+}
+
 header nav li{
     display: inline;
     margin-left: 16px;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header nav li a{
@@ -28,8 +42,42 @@ header nav li a{
     margin: 0 auto;
 }
 
-header .container{
+header .container,
+section .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.images-list img{
+    height: 24px;
+}
+
+.images-list li{
+    display: inline; 
+    max-width: 8px;  
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section{
+    color: #182C61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.store-front{
+    margin-right: 12px;
 }

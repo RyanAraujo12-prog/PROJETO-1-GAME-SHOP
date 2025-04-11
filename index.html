@@ -17,16 +17,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#hero">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="hero">
         <div class="container">
             <img src="./images/loja.jpg" alt="Loja de games" class="store-front"/>
             <div>
@@ -51,5 +51,60 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>Horário de funcionamento</h3>
+                    <p>Segunda a sexta: 10h - 20h</p>
+                    <p>Sábado: 10h - 18h</p>
+                    <p>Domingo: Fechado</p>
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" name="nome" placeholder="Seu nome" required>
+                        <input type="email" name="email" placeholder="Seu email" required>
+                        <input type="tel" name="telefone" placeholder="Seu telefone (opcional)">
+                        <input type="text" name="assunto" placeholder="Assunto" required>
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-media">
+                        <li>
+                            <a href="https://www.instagram.com" title="Siga-nos no Instagram" target="_blank">
+                                <img src="./images/instagram.png" alt="Instagram" class="social-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" title="Siga-nos no Facebook" target="_blank">
+                                <img src="./images/facebook.png" alt="Facebook" class="social-icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" title="Visite nosso canal no YouTube" target="_blank">
+                                <img src="./images/youtube.png" alt="YouTube" class="social-icon">
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+                <div>
+                    <h3>Vanha até nós</h3>
+                    <p>Rua dos Games, 123</p>
+                    <p>Centro, São Paulo - SP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2025 Games Shop - Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
